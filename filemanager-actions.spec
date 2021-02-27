@@ -75,9 +75,7 @@ Summary:	FileManager-Actions extension API documentation
 Summary(pl.UTF-8):	Dokumentacja API rozszerzeń FileManager-Actions
 Group:		Documentation
 Requires:	gtk-doc-common
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 FileManager-Actions extension API documentation.
