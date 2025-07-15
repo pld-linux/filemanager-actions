@@ -10,7 +10,7 @@ Summary:	A file-manager extension which offers user configurable context menu ac
 Summary(pl.UTF-8):	Rozszerzenie zarządców plików dodające własne polecenia w menu kontekstowym
 Name:		filemanager-actions
 Version:	3.4
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/filemanager-actions/3.4/%{name}-%{version}.tar.xz
