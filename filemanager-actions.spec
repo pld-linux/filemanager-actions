@@ -13,11 +13,11 @@ Version:	3.4
 Release:	3
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/filemanager-actions/3.4/%{name}-%{version}.tar.xz
+Source0:	https://download.gnome.org/sources/filemanager-actions/3.4/%{name}-%{version}.tar.xz
 # Source0-md5:	5748c9228705645ea67f273c12439955
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-no-nautilus.patch
-URL:		http://www.nautilus-actions.org/
+URL:		https://gitlab.gnome.org/Archive/filemanager-actions
 %{?with_gconf:BuildRequires:	GConf2-devel >= 2.8.0}
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake
