@@ -33,7 +33,7 @@ BuildRequires:	libgtop-devel >= 1:2.28.4
 BuildRequires:	libtool
 BuildRequires:	libuuid-devel >= 1.6.2
 BuildRequires:	libxml2-devel >= 1:2.7.8
-%{?with_nautilus:BuildRequires:	nautilus-devel >= 3.4.1}
+%{?with_nautilus:BuildRequires:	nautilus3-devel >= 3.4.1}
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.311
 BuildRequires:	tar >= 1:1.22
@@ -105,7 +105,7 @@ Summary:	Nautilus extension which adds customized command in Nautilus menu
 Summary(pl.UTF-8):	Rozszerzenie dodające własne polecenia w menu Nautilusa
 Group:		X11/Applications
 Requires:	%{name} = %{version}-%{release}
-Requires:	nautilus >= 3.4.1
+Requires:	nautilus3 >= 3.4.1
 
 %description -n nautilus-actions
 Nautilus-actions is an extension for Nautilus file manager which
