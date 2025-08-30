@@ -1,0 +1,11 @@
+--- filemanager-actions-3.4/docs/reference/Makefile.am.orig	2017-02-21 14:09:43.000000000 +0100
++++ filemanager-actions-3.4/docs/reference/Makefile.am	2025-08-30 17:16:24.050864653 +0200
+@@ -131,7 +131,7 @@ override GTKDOC_RUN = \
+ endif
+ 
+ gtkdoc_run_prefix = \
+-	LD_LIBRARY_PATH=$(core_libdir)				\
++	env LD_LIBRARY_PATH=$(core_libdir)				\
+ 	$(NULL)
+ 
+ # Extra options to supply to gtkdoc-mkdb
